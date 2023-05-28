@@ -1,0 +1,63 @@
+img {
+  position: relative;
+  border-radius: 50%;
+  bottom: -1px;
+}
+
+#med {
+  position: fixed;
+  margin: 0%;
+  padding: 0%;
+  border-radius: 50%;
+  right: 1%;
+  top: 71%;
+}
+
+a {
+  text-decoration: none;
+}
+.medidor {
+  display: none;
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background-image: url("img/foco.jpg");
+  background-repeat: no-repeat;
+  background-size: 40% 30%;
+  background-position:50% 20px ;
+  background-color: rgba(0, 0, 0, 0.5);
+  z-index: 9999;
+}
+
+
+.popup-content_med {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  width: 320px;
+  padding: 10px;
+  background-color: rgb(250, 246, 175 );
+  border-radius: 5px;
+  text-align: center;
+}
+
+
+.popup-content_med li {
+  text-align: justify;
+}
+
+.close_med {
+  position: absolute;
+  top: 10px;
+  right: 10px;
+  font-size: 24px;
+  cursor: pointer;
+}
+
+.close_med:hover {
+  color: green;
+}
+

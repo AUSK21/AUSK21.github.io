@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8">
+  <link rel="icon" href="img/foco.jpg" type="image/x-icon">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="estilos.css">
+  <title>Servicios de Electricidad y Gasfitería</title>
+
+  <link rel="stylesheet" href="popup.medidor.css">
+  <link rel="stylesheet" href="popup_whats.css">
+  <link rel="stylesheet" href="animacion.css">
+
+  <script src="script.js"></script>
+
+</head>
+<body>
+  <header>
+    <h1>Servicios generales</h1>
+  </header>
+
+  <main>
+    <h2>Bienvenido a serv-electric</h2>
+    <p>nuestro sitio web, donde encontrarás servicios profesionales de Electricidad y Gasfitería para satisfacer todas tus necesidades en tu hogar o negocio</p>
+    
+    <h2>Electricidad:</h2>
+    <p>Nuestro equipo de expertos en electricidad ofrece una amplia gama de servicios para garantizar un suministro eléctrico seguro y eficiente. 
+      Desde instalaciones eléctricas precisas hasta reparaciones rápidas, estamos aquí para ayudarte. También te brindamos asesoramiento sobre  
+      mejoras de eficiencia energética para ahorrar en tus facturas eléctricas.</p>
+    
+    <h2>Gasfitería:</h2>
+    <p>Nuestros profesionales en gasfitería se encargarán de tus necesidades de fontanería . Realizamos reparaciones rápidas y confiables, 
+      desde fugas de agua. Además, ofrecemos instalaciones de sistemas de agua y mantenimiento preventivo para mantener tu hogar o 
+      negocio en perfectas condiciones.</p>
+
+
+    <ul>
+      <li>Teléfono: 928877081</li>
+      <li>Dirección: peru,lima </li>
+    </ul>
+  </main>
+
+  <button id="whatsapp" onclick="openPopup()"><img src="img/whatsapp.png" width="50" height="50" alt=""></button>
+  <div id="popup" class="popup">
+    <div class="popup-content">
+      <button id="consulta" onclick=""><a href="https://wa.me/+51928877081" target="_blank"><h2>consulta</h2></a></button>
+      <span class="close" onclick="closePopup()">&times;</span>
+      <h2>Contacto para más información</h2>
+        <div class="tuerca"></div>
+    </div>
+  </div>
+      
+<button id="med" onclick="openPopup_medidor()"><img src="img/medidor.png" width="50" height="50" alt=""></button>
+  <div id="medidor" class="medidor">
+    <div class="popup-content_med">
+      <span class="close_med" onclick="closePopup_medidor()">&times;</span>
+        <h2>Contacto para más información</h2>
+        <ul>
+          <li>reduccion de costos recibo de luz</li>
+          <li>traslado de medidor</li>
+          <li>corrección de postes en inclinación</li>
+        </ul>
+    </div>
+  </div>
+
+<footer>
+  <p>Derechos de autor &copy; 2023 Servicios de Electricidad y Gasfitería</p>
+</footer>
+
+</body>
+</html>

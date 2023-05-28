@@ -1,0 +1,106 @@
+img{
+  position: relative;
+  border-radius: 50%;
+  bottom: -1px;  
+}
+
+#whatsapp{
+  position: fixed;
+  margin: 0%;
+  padding: 0%;
+  border-radius: 50%;
+  left: 1%;
+  top: 71%;
+}
+
+a{
+  text-decoration: none;
+}
+
+.popup {
+display: none;
+position: fixed;
+top: 0;
+left: 0;
+width: 100%;
+height: 100%;
+background-color: rgb(21, 177, 154);
+z-index: 9999;
+}
+
+.popup-content {
+position: absolute;
+top: 50%;
+left: 50%;
+transform: translate(-50%, -50%);
+width: 300px;
+padding: 20px;
+background-color:rgb(134, 204, 14) ;
+border-radius: 5px;
+text-align: center;
+}
+
+.popup-content .consulta {
+  display: none;
+  position: fixed;
+  top:30%;
+  font-size: 29px;
+}
+
+.popup-content .consulta a {
+  font-size: 20px;
+}
+
+
+
+.close {
+position: absolute;
+top: 10px;
+right: 10px;
+font-size: 24px;
+cursor: pointer;
+}
+
+.close:hover {
+color:green;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
